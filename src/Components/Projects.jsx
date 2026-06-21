@@ -9,8 +9,7 @@ const projects = [
     methods: ["GLM", "Feature Engineering", "Lift Charts"],
     impact: "Improved model accuracy by 12% vs baseline.",
     github: "https://github.com/muk-p/auto-pricing-model",
-    results: {Image: "https://github.com/muk-p/auto-pricing-model/blob/main/results/01_EDA_Frequency_Distributions.png",
-      ImageCaption: "Some results from the auto pricing models."},
+    results: {ImageCaption: "Some results from the auto pricing models."},
     },
   {
     title: "Claims Severity Forecasting",
@@ -19,8 +18,7 @@ const projects = [
     methods: ["GBM", "SHAP", "Cross Validation"],
     impact: "Reduced MAE by 9% on holdout.",
     github: "https://github.com/muk-p/claims-severity-forecast",
-    results: {Image: "https://github.com/muk-p/claims-severity-forecast/blob/main/results/01_Results.png",
-      ImageCaption: "Results from claims severity forecasting model."},
+    results: {ImageCaption: "Results from claims severity forecasting model."},
   },
   {
     title: "Reserving Triangle Automation",
@@ -29,8 +27,7 @@ const projects = [
     methods: ["Chain Ladder", "Python", "Excel Output"],
     impact: "Cut reporting time from hours to minutes.",
     github: "https://github.com/muk-p/reserving-automation",
-    results: {Image: "https://github.com/muk-p/reserving-automation/blob/main/results/01_Results.png",
-      ImageCaption: "Results from reserving automation project."},
+    results: {ImageCaption: "Results from reserving automation project."},
   },
 ];
 
