@@ -6,31 +6,31 @@ const Skills = () => {
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           <div className="skill-item card-hover rounded-xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
             <p className="text-sm uppercase tracking-wide text-slate-500">
-              Tools
+              Frontend
             </p>
             <ul className="mt-3 text-slate-700 space-y-2">
-              <li>Python, R</li>
-              <li>SQL, Excel</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React, Tailwind CSS</li>
             </ul>
           </div>
           <div className="skill-item card-hover rounded-xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
             <p className="text-sm uppercase tracking-wide text-slate-500">
-              Methods
+              Backend
             </p>
             <ul className="mt-3 text-slate-700 space-y-2">
-              <li>GLM, GBM, Regression</li>
-              <li>Credibility, Reserving</li>
-              <li>Validation, Diagnostics</li>
+              <li>Node.js, Express</li>
+              <li>REST APIs, Authentication</li>
+              <li>Server-side validation</li>
             </ul>
           </div>
           <div className="skill-item card-hover rounded-xl border border-slate-200 bg-slate-50 p-5 shadow-sm">
             <p className="text-sm uppercase tracking-wide text-slate-500">
-              Domains
+              Tools & Practices
             </p>
             <ul className="mt-3 text-slate-700 space-y-2">
-              <li>Auto, Home, Health</li>
-              <li>Loss Modeling</li>
-              <li>Risk Analytics</li>
+              <li>Git, GitHub, Postman</li>
+              <li>MongoDB, SQL</li>
+              <li>Responsive design, Testing</li>
             </ul>
           </div>
         </div>

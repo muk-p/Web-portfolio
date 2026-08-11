@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders the full-stack portfolio', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const portfolioHeading = screen.getByText(/full-stack web developer portfolio/i);
+  expect(portfolioHeading).toBeInTheDocument();
 });

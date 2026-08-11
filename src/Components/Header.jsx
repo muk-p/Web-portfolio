@@ -78,10 +78,10 @@ const Header = () => {
               </h1>
             </div>
             <p className="mt-4 text-xl font-semibold text-sky-700 animate-pulse-slow">
-              Actuarial Science Portfolio
+              Full-Stack Web Developer Portfolio
             </p>
             <p className="mt-3 text-slate-600 max-w-xl leading-relaxed">
-              Pricing • Risk Modeling • Reserving • Data Analytics
+              React • Node.js • APIs • Databases • Responsive Interfaces
             </p>
           </div>
         </div>

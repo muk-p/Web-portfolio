@@ -1,33 +1,33 @@
 import React, { useState, useEffect } from "react";
-import pricingimg from "../images/01_EDA_Frequency_Distributions.png";
+import projectimg from "../images/01_EDA_Frequency_Distributions.png";
 
 const projects = [
   {
-    title: "Auto Insurance Pricing Model",
+    title: "Task Management Dashboard",
     summary:
-      "Built a GLM-based pricing model with feature engineering and model diagnostics.",
-    methods: ["GLM", "Feature Engineering", "Lift Charts"],
-    impact: "Improved model accuracy by 12% vs baseline.",
-    github: "https://github.com/muk-p/auto-pricing-model",
-    results: {ImageCaption: "Some results from the auto pricing models."},
+      "Built a responsive dashboard for creating, organizing, and tracking tasks across projects.",
+    methods: ["React", "Tailwind CSS", "REST API"],
+    impact: "Created a clear workflow for managing work from one place.",
+    github: "https://github.com/muk-p",
+    results: {ImageCaption: "Task management dashboard interface."},
     },
   {
-    title: "Claims Severity Forecasting",
+    title: "Full-Stack E-Commerce Platform",
     summary:
-      "Forecasted claim severity using gradient boosting with explainability.",
-    methods: ["GBM", "SHAP", "Cross Validation"],
-    impact: "Reduced MAE by 9% on holdout.",
-    github: "https://github.com/muk-p/claims-severity-forecast",
-    results: {ImageCaption: "Results from claims severity forecasting model."},
+      "Developed an online store with product browsing, cart management, authentication, and checkout flows.",
+    methods: ["Node.js", "Express", "MongoDB"],
+    impact: "Connected the customer experience to a structured backend API.",
+    github: "https://github.com/muk-p",
+    results: {ImageCaption: "E-commerce application interface."},
   },
   {
-    title: "Reserving Triangle Automation",
+    title: "Developer Portfolio Website",
     summary:
-      "Automated reserving triangles and reporting outputs from raw claims data.",
-    methods: ["Chain Ladder", "Python", "Excel Output"],
-    impact: "Cut reporting time from hours to minutes.",
-    github: "https://github.com/muk-p/reserving-automation",
-    results: {ImageCaption: "Results from reserving automation project."},
+      "Designed and built a responsive portfolio to present projects, technical skills, and professional experience.",
+    methods: ["React", "JavaScript", "Responsive Design"],
+    impact: "Made technical work easy to explore across desktop and mobile.",
+    github: "https://github.com/muk-p",
+    results: {ImageCaption: "Responsive developer portfolio interface."},
   },
 ];
 
@@ -51,7 +51,7 @@ const Projects = () => {
   }, [modalOpen]);
 
   const openModal = (image, caption) => {
-    setModalImage(image || pricingimg);
+    setModalImage(image || projectimg);
     setModalCaption(caption || "");
     setModalOpen(true);
   };
@@ -69,7 +69,7 @@ const Projects = () => {
           <div>
             <h2 className="text-2xl md:text-3xl font-semibold">Projects</h2>
             <p className="mt-2 text-slate-600 max-w-2xl">
-              A few highlights with results, methods, and links to code.
+              A few highlights showcasing the products I build, the technologies I use, and the problems I solve.
             </p>
           </div>
           <a
@@ -110,7 +110,7 @@ const Projects = () => {
                 </a>
 
                 <button
-                  onClick={() => openModal(pricingimg , project.results?.ImageCaption)}
+                  onClick={() => openModal(projectimg , project.results?.ImageCaption)}
                   className="mt-4 inline-block text-sm text-slate-700 underline underline-offset-4"
                 >
                   View some results
@@ -136,7 +136,7 @@ const Projects = () => {
               </button>
               <div className="rounded-lg overflow-hidden bg-white p-4">
                 <img
-                  src={modalImage || pricingimg}
+                  src={modalImage || projectimg}
                   alt={modalCaption}
                   className="w-full h-96 object-contain"
                 />

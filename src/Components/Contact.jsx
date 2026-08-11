@@ -4,11 +4,12 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="rounded-2xl border border-sky-200 bg-sky-50 p-8 md:p-10 shadow-sm">
           <h2 className="text-2xl md:text-3xl font-semibold">
-            Open to Actuarial Internships
+            Open to Full-Stack Opportunities
           </h2>
           <p className="mt-3 text-slate-600 max-w-2xl">
-            I am currently seeking an internship in pricing, reserving, or risk
-            analytics. I would love to connect and share more about my projects.
+            I am currently open to full-stack web development opportunities,
+            freelance projects, and collaborations. I would love to connect and
+            share more about the products I build.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
