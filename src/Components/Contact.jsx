@@ -19,12 +19,6 @@ const Contact = () => {
               Email Me
             </a>
             <a
-              href="/resume.pdf"
-              className="rounded-full border border-slate-300 px-5 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-slate-400"
-            >
-              Resume PDF
-            </a>
-            <a
               href="https://github.com/muk-p"
               className="rounded-full border border-slate-300 px-5 py-2 text-sm text-slate-700 hover:bg-slate-50 hover:border-slate-400"
             >

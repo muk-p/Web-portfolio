@@ -20,7 +20,7 @@ const Credentials = () => {
             </p>
             <ul className="mt-3 text-slate-700 space-y-2">
               <li>University Of Nairobi</li>
-              <li>Continuous learning through projects and practical development</li>
+              <li>Studying Actuarial Science.</li>
               <li>Focused on modern frontend and backend technologies</li>
             </ul>
           </div>

@@ -8,17 +8,15 @@ const projects = [
       "Built a responsive dashboard for creating, organizing, and tracking tasks across projects.",
     methods: ["React", "Tailwind CSS", "REST API"],
     impact: "Created a clear workflow for managing work from one place.",
-    github: "https://github.com/muk-p",
-    results: {ImageCaption: "Task management dashboard interface."},
+    github: "https://github.com/muk-p/Pixel-Plays/tree/main/src/Components/Manager",
     },
   {
     title: "Full-Stack E-Commerce Platform",
     summary:
       "Developed an online store with product browsing, cart management, authentication, and checkout flows.",
-    methods: ["Node.js", "Express", "MongoDB"],
+    methods: ["Node.js", "Express", "MYSQL", "REST API"],
     impact: "Connected the customer experience to a structured backend API.",
-    github: "https://github.com/muk-p",
-    results: {ImageCaption: "E-commerce application interface."},
+    github: "https://github.com/muk-p/Pixel-Plays",
   },
   {
     title: "Developer Portfolio Website",
@@ -26,8 +24,7 @@ const projects = [
       "Designed and built a responsive portfolio to present projects, technical skills, and professional experience.",
     methods: ["React", "JavaScript", "Responsive Design"],
     impact: "Made technical work easy to explore across desktop and mobile.",
-    github: "https://github.com/muk-p",
-    results: {ImageCaption: "Responsive developer portfolio interface."},
+    github: "https://github.com/muk-p/Web-portfolio",
   },
 ];
 
