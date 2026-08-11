@@ -106,12 +106,6 @@ const Projects = () => {
                   GitHub repo
                 </a>
 
-                <button
-                  onClick={() => openModal(projectimg , project.results?.ImageCaption)}
-                  className="mt-4 inline-block text-sm text-slate-700 underline underline-offset-4"
-                >
-                  View some results
-                </button>
               </div>
             </div>
           ))}
