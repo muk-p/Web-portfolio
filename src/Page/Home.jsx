@@ -9,8 +9,8 @@ function Home() {
     return (
         <div className="home-container bg-white">
             <Header />
-            <About />
             <Projects />
+            <About />
             <Skills />
             <Credentials />
             <Contact />

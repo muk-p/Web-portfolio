@@ -21,16 +21,16 @@ const Header = () => {
               </summary>
               <div className="absolute right-0 mt-2 w-52 rounded-xl border border-sky-200 bg-white p-2 shadow-xl">
                 <a
-                  href="#about"
-                  className="block rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-sky-100 hover:text-sky-800 transition-colors duration-200"
-                >
-                  About
-                </a>
-                <a
                   href="#projects"
                   className="block rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-sky-100 hover:text-sky-800 transition-colors duration-200"
                 >
                   Projects
+                </a>
+                <a
+                  href="#about"
+                  className="block rounded-lg px-3 py-2 text-sm text-slate-700 hover:bg-sky-100 hover:text-sky-800 transition-colors duration-200"
+                >
+                  About
                 </a>
                 <a
                   href="#skills"
@@ -74,15 +74,31 @@ const Header = () => {
           <div className="text-center space-y-3 md:text-left">
             <div className="header-title-container">
               <h1 className="text-5xl md:text-6xl font-bold tracking-tight bg-gradient-to-r from-slate-900 via-sky-800 to-slate-900 bg-clip-text text-transparent">
-                John Mukara
+                Pixel-Plays
               </h1>
             </div>
             <p className="mt-4 text-xl font-semibold text-sky-700 animate-pulse-slow">
-              Full-Stack Web Developer Portfolio
+              An online store and task manager.
             </p>
             <p className="mt-3 text-slate-600 max-w-xl leading-relaxed">
-              React • Node.js • APIs • Databases • Responsive Interfaces
+              I’m John Mukara. I build useful things for the web. Take a closer look, then explore more of my work.
             </p>
+            <div className="mt-3 flex flex-wrap justify-center gap-3 md:justify-start">
+              <a
+                href="https://www.pixelplays.co.ke/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-800"
+              >
+                Visit Pixel-Plays
+              </a>
+              <a
+                href="#projects"
+                className="inline-block rounded-full border border-slate-300 bg-white px-5 py-2 text-sm font-semibold text-slate-700 hover:bg-sky-50"
+              >
+                Explore my projects
+              </a>
+            </div>
           </div>
         </div>
       </div>

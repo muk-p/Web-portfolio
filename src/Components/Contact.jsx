@@ -4,19 +4,17 @@ const Contact = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="rounded-2xl border border-sky-200 bg-sky-50 p-8 md:p-10 shadow-sm">
           <h2 className="text-2xl md:text-3xl font-semibold">
-            Open to Full-Stack Opportunities
+            Have a project in mind?
           </h2>
           <p className="mt-3 text-slate-600 max-w-2xl">
-            I am currently open to full-stack web development opportunities,
-            freelance projects, and collaborations. I would love to connect and
-            share more about the products I build.
+            I’m open to new roles and projects. Send me a note and let’s talk.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
               href="mailto:myjohnmukara@gmail.com"
               className="rounded-full bg-slate-900 text-white px-5 py-2 text-sm font-semibold hover:bg-slate-800"
             >
-              Email Me
+              Get in touch
             </a>
             <a
               href="https://github.com/muk-p"
